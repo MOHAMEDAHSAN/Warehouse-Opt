@@ -87,13 +87,38 @@ The system bypasses simple "closest-first" logic in favor of **Profitability-Opt
 
 The AI performs a real-time margin check. Any order where the combined holding and shipping costs result in a negative margin (Net Loss) is flagged immediately in the **Operational Analytics** dashboard. This allows the administrator to intervene, halt the order, or manually adjust the fulfillment strategy.
 
+## 6.AI-assisted location optimization
+
+### **6.1 Best bin for inbound stock
+When new stock arrives, the system recommends a bin by checking:
+
+product attributes (size, special storage needs),
+
+demand velocity (fast or slow moving),
+
+current bin utilization (how full each bin is).
+It filters bins that have enough free capacity, match the product’s constraints, and then ranks them (e.g., by lowest utilization and best zone) to suggest one “best fit” bin.
+
+### **6.2 Stock redistribution between bins/warehouses
+Periodically, the system analyzes:
+
+bin utilization (overfilled vs underused bins),
+
+SKU demand and days of cover in each location.
+It then suggests moves such as:
+
+shifting stock from overutilized bins to emptier bins,
+
+moving slow-moving items out of prime picking zones,
+
+transferring extra stock from overstocked warehouses to warehouses with low days of cover.
 ---
 
-## 6. Technical Feasibility & Architecture
+## 7. Technical Feasibility & Architecture
 
 The proposed solution utilizes a hybrid architecture, leveraging the **MERN Stack** for core operations and a **Python-based Microservice** for analytical logic.
 
-### **6.1 Backend & AI Implementation**
+### **7.1 Backend & AI Implementation**
 
 - **MERN Core (Node.js/Express):** Manages the primary **CRUD** operations, including warehouse hierarchy definitions, manual stock adjustments, and the admin interface.
 - **Python/FastAPI (Optimization Engine):** Acts as a dedicated microservice to handle complex margin-aware calculations. If we are gonna use models to predict warehouse selection for usage.
