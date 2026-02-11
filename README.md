@@ -81,7 +81,7 @@ The system bypasses simple "closest-first" logic in favor of **Profitability-Opt
 <img width="750" height="450" alt="image" src="https://github.com/user-attachments/assets/30dcd1f4-9d36-4913-8f91-1138edd33e19" />
 
 
- If Warehouse B (proximate) costs 100/day in storage, and Warehouse D (distant) costs 50/day with 25 in transit costs, the AI selects **Warehouse D**. The total cost of 75 preserves a higher net margin compared to the more expensive, though closer, location.
+ If Warehouse B (proximate) costs 100/day in storage, and Warehouse C (distant) costs 50/day with 25 in transit costs, the AI selects **Warehouse C**. The total cost of 75 preserves a higher net margin compared to the more expensive, though closer, location.
  
 ### **5.3 Loss Prevention Alerts**
 
