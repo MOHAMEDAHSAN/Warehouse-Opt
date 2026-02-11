@@ -68,7 +68,6 @@ The AI component within this module functions as a **Financial Guardrail**. Rath
 Upon the ingestion of a sale from any channel, the AI calculates the **Total Cost to Serve**. This calculation factors in:
 
 - **Est Holding Cost:** Calculated as
-- 
 <img width="444" height="88" alt="image" src="https://github.com/user-attachments/assets/8213534d-78fc-42da-a98c-f396147337b0" />
 
 - **Logistics/Transport Cost:** Distance-based shipping rates from the specific warehouse node to the customer destination.
