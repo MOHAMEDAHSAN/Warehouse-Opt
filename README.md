@@ -89,7 +89,7 @@ The AI performs a real-time margin check. Any order where the combined holding a
 
 ## 6.AI-Assisted Location Optimization
 
-### **6.1 Best bin for inbound stock
+### **6.1 Best bin for inbound stock**
 When new stock arrives, the system recommends a bin by checking:
 
 product attributes (size, special storage needs),
@@ -99,7 +99,7 @@ demand velocity (fast or slow moving),
 current bin utilization (how full each bin is).
 It filters bins that have enough free capacity, match the product’s constraints, and then ranks them (e.g., by lowest utilization and best zone) to suggest one “best fit” bin.
 
-### **6.2 Stock redistribution between bins/warehouses
+### **6.2 Stock redistribution between bins/warehouses**
 Periodically, the system analyzes:
 
 bin utilization (overfilled vs underused bins),
