@@ -18,7 +18,7 @@ To function effectively, the module processes specific operational data to gener
 ### **Inputs**
 
 
-- **Warehouse Hierarchy:** Definitions of physical storage structures (Warehouses, Blocks, Aisles).
+- **Warehouse Hierarchy:** Definitions of physical storage structures (Warehouses, Zones/Blocks, Aisles).
 - **Product Specifications:** SKU details, dimensions, and storage requirements (like temperature,fragility).
 - **Manual Stock Adjustments:** Inventory changes made by warehouse staff.(Internal)
 - **Movement Logs:** Timestamps and IDs for every time a product is moved between locations.
