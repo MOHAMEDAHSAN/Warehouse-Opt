@@ -23,7 +23,7 @@ To function effectively, the module processes specific operational data to gener
 - **Manual Stock Adjustments:** Inventory changes made by warehouse staff.(Internal)
 - **Movement Logs:** Timestamps and IDs for every time a product is moved between locations.
 - **Demand & Cost Signals:** Daily demand/velocity per SKU per warehouse, holding cost per warehouse, and trasporting cost parameters for different customer regions.
-
+- **Reverse Logistics & Return Signals:** Tracking of customer returns, refunds, and exchanges including:
 
 ### **Outputs**
 
