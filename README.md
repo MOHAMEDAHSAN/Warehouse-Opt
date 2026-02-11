@@ -112,6 +112,7 @@ shifting stock from overutilized bins to emptier bins,
 moving slow-moving items out of prime picking zones,
 
 transferring extra stock from overstocked warehouses to warehouses with low days of cover.
+
 ---
 
 ## 7. Technical Feasibility & Architecture
