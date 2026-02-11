@@ -69,7 +69,7 @@ Upon the ingestion of a sale from any channel, the AI calculates the **Total Cos
 
 - **Est Holding Cost:** Calculated as
 - 
-<img width="222" height="44" alt="image" src="https://github.com/user-attachments/assets/8213534d-78fc-42da-a98c-f396147337b0" />
+<img width="444" height="88" alt="image" src="https://github.com/user-attachments/assets/8213534d-78fc-42da-a98c-f396147337b0" />
 
 - **Logistics/Transport Cost:** Distance-based shipping rates from the specific warehouse node to the customer destination.
 
@@ -79,7 +79,8 @@ Upon the ingestion of a sale from any channel, the AI calculates the **Total Cos
 The system bypasses simple "closest-first" logic in favor of **Profitability-Optimized Routing**.
 
 - **Example Scenario:**
-![WhatsApp Image 2026-02-11 at 7 54 06 PM](https://github.com/user-attachments/assets/30a25e07-db7e-4fae-a3eb-6105a07e1464)
+<img width="750" height="450" alt="image" src="https://github.com/user-attachments/assets/30dcd1f4-9d36-4913-8f91-1138edd33e19" />
+
 
  If Warehouse B (proximate) costs 100/day in storage, and Warehouse D (distant) costs 50/day with 25 in transit costs, the AI selects **Warehouse D**. The total cost of 75 preserves a higher net margin compared to the more expensive, though closer, location.
  
