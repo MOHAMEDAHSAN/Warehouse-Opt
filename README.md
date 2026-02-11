@@ -132,3 +132,16 @@ The proposed solution utilizes a hybrid architecture, leveraging the **MERN Stac
 
 
 ---
+
+
+
+**Module 3:** Multi-Channel Sales Ingestion
+
+### 1. Channel-Level Performance Insights:
+
+- The AI can determine "Channel Weight" to help with inventory allocation (e.g., if Amazon sells 3x faster than eBay on weekends).
+- Dynamic Reorder Points: Instead of a static "Low Stock" alert, the AI calculates a Lead-Time Demand forecast per channel.
+
+### 2. AI-assisted sales insight
+
+- Time relevant models such as LSTM, SARIMAX, etc  based upon requirement whether trend only or all 4 components
