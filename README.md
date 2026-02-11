@@ -87,7 +87,7 @@ The system bypasses simple "closest-first" logic in favor of **Profitability-Opt
 
 The AI performs a real-time margin check. Any order where the combined holding and shipping costs result in a negative margin (Net Loss) is flagged immediately in the **Operational Analytics** dashboard. This allows the administrator to intervene, halt the order, or manually adjust the fulfillment strategy.
 
-## 6.AI-assisted location optimization
+## 6.AI-Assisted Location Optimization
 
 ### **6.1 Best bin for inbound stock
 When new stock arrives, the system recommends a bin by checking:
